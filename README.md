@@ -7,7 +7,7 @@
 
 **Mobius Prime** is an advanced, high-fidelity tool designed to architect world-class System Prompts. It utilizes a sophisticated interrogation protocol—the **Mobius Protocol**—to guide users through defining Identity, Objectives, Context, Constraints, and Format. 
 
-Under the hood, it leverages the **Google GenAI SDK** (`gemini-2.5-flash`) with **Search Grounding** to ensure that every generated system prompt is factually accurate and up-to-date with the latest documentation and real-world context.
+Under the hood, it leverages the **Google GenAI SDK** (`gemini-3-pro-preview, gemini-2.5-pro and gemini-2.5-flash`) with **Search Grounding** to ensure that every generated system prompt is factually accurate and up-to-date with the latest documentation and real-world context.
 
 ## 🌌 Visual Identity
 The application features a unique **"Matrix meets Apple"** aesthetic:
