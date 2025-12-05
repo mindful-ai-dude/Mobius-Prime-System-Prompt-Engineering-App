@@ -1,4 +1,6 @@
-# Mobius Prime // System Prompt Creator
+![Mobius Prime - System Prompt Engineering App](./content/image-mobius-prime-prompt-engineering-app-1270x812.png)
+
+# Mobius Prime - System Prompt Engineering App
 
 ![Status](https://img.shields.io/badge/Status-Operational-00ff9d)
 ![Tech](https://img.shields.io/badge/Stack-React_|_Typescript_|_Gemini-050505)
