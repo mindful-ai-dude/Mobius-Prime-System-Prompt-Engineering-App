@@ -76,6 +76,11 @@ const App: React.FC = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }, [step]);
 
+  // Ensure document title matches the app name
+  useEffect(() => {
+    document.title = "Mobius Prime - System Prompt Engineering App";
+  }, []);
+
   const handleNext = () => {
     setStep(prev => prev + 1);
   };
@@ -133,9 +138,14 @@ const App: React.FC = () => {
               <div className="absolute inset-0 bg-mobius-accent blur-[60px] opacity-20"></div>
               <Cpu size={80} className="text-mobius-accent relative z-10 animate-pulse-slow" strokeWidth={1} />
             </div>
-            <h1 className="text-5xl md:text-7xl font-bold tracking-tighter mb-6 bg-clip-text text-transparent bg-gradient-to-b from-white to-white/60">
+            
+            <h1 className="text-5xl md:text-7xl font-bold tracking-tighter mb-2 bg-clip-text text-transparent bg-gradient-to-b from-white to-white/60">
               MOBIUS <span className="text-mobius-accent neon-text">PRIME</span>
             </h1>
+            <h2 className="text-lg md:text-xl font-mono text-mobius-accent/80 mb-6 tracking-wide uppercase">
+              System Prompt Engineering App
+            </h2>
+            
             <p className="text-xl text-mobius-secondary mb-12 font-light leading-relaxed max-w-xl mx-auto">
               Construct high-fidelity system prompts through our advanced interrogation protocol. 
               Grounded in real-time data, architected for complex reasoning.

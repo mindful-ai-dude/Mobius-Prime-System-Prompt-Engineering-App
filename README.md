@@ -1,5 +1,4 @@
-![Mobius Prime - System Prompt Engineering App](content/image-mobius-prime-prompt-engineering-app-1270x812.jpg)
-<img width="1270" height="812" alt="Mobius Prime Prompt Engineering App Banner" src=/content/image-mobius-prime-prompt-engineering-app-1270x812.jpg/>
+![Mobius Prime - System Prompt Engineering App](content/image-mobius-prime-prompt-engineering-app-1270x812.png)
 
 # Mobius Prime - System Prompt Engineering App
 
